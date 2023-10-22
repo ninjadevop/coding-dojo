@@ -17,18 +17,18 @@ ex. "1996 JS is awesome"
 */
 
 for(var year=1996;year<=2023;year++) {
-
-    console.log(year,"JS is aweosme")
-}  
-        for(var i=1996;i<=2023;i++)
-    if(i=i+10){
-        console.log(i,"happy decade of JS!")
+        
+    console.log(year,"JS is aweosme") 
     
+        
+    if(year=year+10){
+        console.log(year,"happy decade of JS!")
+
     }
 
+}
 
 
-console.log(year,i);
 
 
 
