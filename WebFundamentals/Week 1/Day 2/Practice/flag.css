@@ -1,0 +1,32 @@
+.flag {
+    width: 300px;
+    height: 220px;
+    position: static;
+}
+.stripe {
+    height: 30%;
+}
+    
+.black {
+    background-color: #000;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.green {
+    background-color: #006400;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 60px 100px 80px;
+    border-color: transparent transparent transparent #c60c30; 
+    position: absolute;
+    left: 8px;
+    top: 6px;
+    
+}    
