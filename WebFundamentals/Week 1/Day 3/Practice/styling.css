@@ -1,0 +1,16 @@
+h1{
+    background-color: black;
+    color: rgb(102, 206, 206);
+}
+h2{
+    background-color: blueviolet;
+    color: white;
+}
+h3{
+    background-color: aquamarine;
+    color:purple;
+    text-align: right;
+}
+.blue{
+    color: white;
+}
