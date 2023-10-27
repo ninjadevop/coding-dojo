@@ -1,0 +1,12 @@
+
+var arr=(["a", "b", "c", "d", "e"]);
+
+function reverse(newarr){
+    var arrnew=[]
+    for(var i=arr.length;i>=0;i--){
+    newarr.push(arr[i])
+    }
+    return newarr;
+      }
+    
+console.log(reverse(["a", "b", "c", "d", "e"]));
