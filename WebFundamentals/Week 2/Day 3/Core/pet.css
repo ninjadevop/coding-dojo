@@ -1,0 +1,125 @@
+
+.nav-bar{
+    background-color: rgb(54, 143, 170);
+    display: flex;
+    flex-direction: column;
+}
+.navbar1{
+    width: 800px;
+    margin: 0 auto;
+}
+.pet{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.pet a{
+    color: white;
+    text-decoration: none; 
+}
+.pet1 img{
+    height: 25px;
+    width: 25px;
+}
+.nav {
+    display: flex;
+    justify-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+}
+.nav1 img{
+    height: 25px;
+    width: 25px;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+.donate{
+    background-color: white;
+    color: blueviolet;
+    border-color: blueviolet;
+    font-weight: bold;
+    font-size: medium;
+    height: 20px;
+}
+.nav1{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    background-color: purple;
+    color: white;
+    min-height: auto;
+}
+.select h1{
+font-size: small;
+font-weight: normal;
+margin: 0px;
+color: white;
+}
+.select2 h1{
+    font-size: small;
+    font-weight: normal;
+    margin: 0px;
+    color: white;    
+}
+.select2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.part1{
+    height: fit-content;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    padding: 10px;
+
+}
+.part1-0{
+    background-color: rgb(204, 202, 202);
+    display: flex;
+    align-items: center;
+}
+.part1-0 img{
+    width: 100px;
+    height: 100px;
+}
+.part1-1{
+    background-color: rgb(204, 202, 202);
+    display: flex;
+    align-items: center;
+}
+.part1-1 img{
+    width: 100px;
+    height: 100px;
+}
+.part1-2{
+    background-color: rgb(204, 202, 202);
+    display: flex;
+    align-items: center;
+}
+.part1-2 img{
+    width: 100px;
+    height: 100px;
+}
+.btn1{
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.cat2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+}

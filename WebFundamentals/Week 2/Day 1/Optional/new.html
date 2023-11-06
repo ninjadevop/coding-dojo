@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class=" nav myflex ">
+            <div class="  left-nave myflex">
+                <img src="./assets/cat.png" alt="cat.png">
+                <h2>CodeIT</h2>
+                <input type="text" placeholder="search">
+                <button onclick="alertMe()">Go</button>
+            </div>
+            <div class="right-nav">
+                <button id="btn1">Get App</button>
+                <button id="btn2">Log In</button>
+            </div>
+        </div>
+        <div class="head">
+            <div class="top-head myflex">
+                <img src="./assets/cat.png" alt="cat.png">
+                <h2>c/Dojo</h2>
+                <button onclick="removeMe(this)">Join</button>
+            </div>
+            <ul class="bottom-head myflex">
+                <li><span> Posts</span></li>
+                <li>Wiki</li>
+                <li>c/Dojo</li>
+                <li>Discord</li>
+            </ul>
+        </div>
+        <div class="main myflex">
+            <div class="left">
+                <div class="left-main myflex">
+                    <div class="vote">
+                        <img src="./assets/up-arrow.png" alt="uparrow">
+                        <p>29</p>
+                        <img src="./assets/down-arrow.png" alt="downarrow">
+                    </div>
+                    <div class="card">
+                        <h2>Best of Projects Week</h2>
+                        <img src="./assets/image1.webp" alt="image1">
+                        <div class="bottom-card myflex">
+                            <img src="./assets/chat.png" alt="chat ">
+                            <p>42 comments</p>
+                            <img src="./assets/share.png" alt="share">
+                            <p>Share</p>
+    
+                        </div>
+                    </div>
+
+                </div>
+                <div class="left-main myflex">
+                    <div class="vote">
+                        <img onclick="increase()" src="./assets/up-arrow.png" alt="uparrow">
+                        <p id="likes2">17</p>
+                        <img onclick="decrease()" src="./assets/down-arrow.png" alt="downarrow">
+                    </div>
+                    <div class="card">
+                        <h2>I use my cat as a rubber duck, is that weird</h2>
+                        <img src="./assets/image2.webp" alt="image1">
+                        <div class="bottom-card myflex">
+                            <img src="./assets/chat.png" alt="chat ">
+                            <p>16 comments</p>
+                            <img src="./assets/share.png" alt="share">
+                            <p>Share</p>
+    
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="right">
+                <div class="first-class marginbottom">
+                    <h3 class="myh3">
+                        About the Dojo
+                    </h3>
+                    <p>Changing lives with Code and a dedicated Community</p>
+                </div>
+                <div class="second-class marginbottom">
+                    <h3 class="myh3">Discord</h3>
+                    <div class=" mydiv myflex">
+                        <button>Discord.gg/cdojo</button>
+                    </div>
+                    
+                </div>
+                <div class="third-class marginbottom">
+                    <h3 class="myh3">c/Dojo Rules</h3>
+                    <ol>
+                        <li>follow the 20 minutes</li>
+                        <li>follow the 20 minutes</li>
+                        <li>follow the 20 minutes</li>
+                        <li>follow the 20 minutes</li>
+                        <li>follow the 20 minutes</li>
+                        
+                    </ol>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

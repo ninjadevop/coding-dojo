@@ -1,0 +1,18 @@
+h1{
+    background-color: black;
+    color: white;
+}
+.My{
+    color: aqua;
+
+}
+h2{
+    background-color: purple;
+    color: white;
+}
+h3{
+    background-color: aqua;
+    color: rgba(2, 2, 165, 0.63);
+    text-align: end;
+    text-decoration: underline;
+}

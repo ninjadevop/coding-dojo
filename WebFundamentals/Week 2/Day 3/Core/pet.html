@@ -1,0 +1,85 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pet.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="navbar1">
+            <div class="pet">
+                <div class="pet1">
+                    <img src="./assets/heart-light.png" alt=""><a href="#">Pet Shelter</a>
+                </div>
+                <div class="nav">
+                    <a href="#">Find a Pet</a>
+                    <a href="#">About</a>
+                    <button onclick="removeMe(this)" class="donate">Donate</button>
+                </div>
+            </div>
+            <div class="nav1">
+                <div class="select"> 
+                    <h1> I'm looking for..</h1>
+                    <img src="./assets/paw-light.png" alt="">
+                    
+                    <select name="mypets"  onchange="alertMe(this)">
+                        <option value="AnyPet">Any Pet</option>
+                        <option value="Cat">Cat</option>
+                        <option value="Dog">Dog</option>
+                    </select>
+                </div>
+                <div class="select2">
+                    <h1>in or near..</h1>
+                    <img src="./assets/pin-light.png" alt="">
+            <input type="text" name="in or near" placeholder="City or Zip code">
+            <button class="btn">Find my new BestFriend</button>    
+        </div>  
+            </div>
+        </div>
+        
+    </div>
+    <div class="part1">
+        <div class="part1-0">
+            <img src="./assets/pepper.jpg" alt=""> 
+            <div class="cat2">
+                <h1>Pepper</h1>
+                <p>Pepper is a slightly shy grey tabby, 
+                but she really loves <br>shows her human affection.</p>  
+            </div>
+            <div>
+                <span >3 petting(s)</span>
+                <button class="btn1" onclick="increase()">Pet Pepper</button> 
+            </div>
+        </div>
+        <div class="part1-1">
+            <img src="./assets/bruce.jpg" alt="">
+            <div class="cat2">
+                <h1>Bruce</h1>
+                <p>Bruce is a loyal companion.
+                    He loves long walks and cold <br>weather.</p>
+            </div>
+            <div>
+                <span  onclick="increase()">5 petting(s)</span>
+                <button class="btn1">Pet Bruce</button>
+            </div>
+        </div>
+        <div class="part1-2">
+            <img src="./assets/oscar.jpg" alt="">
+        <div class="cat2">
+            <h1>Oscar</h1>
+            <p>Oscar is bright, energetic and friendly.He is
+                looking for a <br>good home.
+            </p>
+        </div>
+        <div>
+            <span onclick="increase()">8 petting(s)</span>
+            <button class="btn1">Pet Oscar</button>
+
+        </div>
+        </div>
+        </div>
+    <script src="pet.js"></script>
+</body>
+</html>

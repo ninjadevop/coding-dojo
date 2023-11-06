@@ -1,0 +1,172 @@
+*{
+    /* background-color: aquamarine; */
+    margin: 0px 0px;
+    padding: 0px 0px;
+    /* outline: 1px solid blue; */
+    font-family: sans-serif;
+}
+
+.wrapper{
+    /* width: 80%; */
+    margin: 0px auto;
+}
+/* nav class ----------------------*/
+.nav {
+    height: 40px;
+    background-color: gray;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-bottom: 3px solid black;
+}
+.nav img{
+    width: 30px;
+}
+.left-nave{
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.left-nave button{
+    background-color: orange;
+    padding: 5px 10px;
+}
+
+#btn1{
+    background-color: blue;
+    color: white;
+    margin-right: 10px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+#btn2{
+    background-color: orange;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+/* head division -------------------*/
+.head{
+    padding: 10px 15%;
+}
+
+.top-head{
+    align-items: center;
+    width: 250px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.top-head img{
+    width: 50px;
+    border-radius: 45px;
+    border :2px solid black;
+    padding: 5px;
+    
+}
+.top-head button{
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 6px;
+    border: none;
+}
+
+.bottom-head{
+    list-style-type: none;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+span{
+    color: red;
+    text-decoration: underline;
+}
+
+/* main section ---------------------------*/
+
+.main{
+    justify-content: space-between;
+    padding: 20px 15%;
+    background-color: rgb(209, 192, 192);
+}
+.left{
+    flex: 3;
+    margin-right: 20px;
+}
+.left-main{
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.vote{
+    padding: 10px 20px;
+}
+
+.vote img{
+    width: 15px;
+}
+
+.card > img{
+    width: 90%;
+}
+.card h2{
+    padding: 5px;
+}
+.bottom-card{
+    margin: 20px;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-card img{
+    width: 20px;
+}
+
+.right{
+    flex: 2;
+}
+.right p{
+    padding: 5px 10px;
+}
+
+.marginbottom{
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.third-class ol{
+    padding: 20px;
+}
+.third-class li{
+    padding: 5px;
+}
+.mydiv{
+    justify-content: center;
+    padding: 5px 20px;
+}
+.mydiv button{
+    padding: 5px 50px;
+}
+.first-class, .second-class,.third-class{
+    width: 100%;
+}
+
+
+
+
+/* utility class */
+.myflex{
+    display: flex;
+    
+}
+.myh3{
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border: 2px solid black;
+}

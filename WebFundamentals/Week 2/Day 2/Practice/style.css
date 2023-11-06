@@ -1,0 +1,9 @@
+*{
+    /* background-color: aquamarine; */
+}
+
+.red{
+    background-color: red;
+    border-radius: 45px;
+    border: 2px solid blue;
+}
