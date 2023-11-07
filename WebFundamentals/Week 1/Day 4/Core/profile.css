@@ -1,0 +1,316 @@
+* {
+    font-family: sans-serif;
+    /* outline: 2px solid blue; */
+    margin: 0% auto;
+
+}
+
+.container{
+    margin: 0% auto;
+
+}
+.topNav {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.h1-1 {
+    padding-left: 206px;
+}
+
+.nav-i {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.nav-i ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    padding-right: 300px;
+    font-weight: bold;
+}
+
+.u-name {
+    margin-top: 30px;
+
+}
+
+button {
+    background-color: rgb(23, 162, 184);
+    color: white;
+    width: 85px;
+    height: 30px;
+    font-size: medium;
+    font-weight: bold;
+    margin-right: 190px;
+
+}
+
+.grey {
+    color: rgb(211, 210, 210);
+}
+
+.card-box,
+.education {
+    border: 3px solid rgb(211, 210, 210);
+    width: 580px;
+    margin-left: 210px;
+
+}
+
+.card-nav {
+    background-color: rgb(23, 162, 184);
+    width: 100%;
+    height: 80px;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.main-box {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+
+}
+
+.card-nav img {
+    width: 85px;
+    height: 85px;
+    border: 5px double rgb(211, 210, 210);
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 25px;
+
+}
+
+.li-box img {
+    width: 15px;
+    height: 15px;
+}
+
+.position {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+
+}
+
+.gear img,
+p {
+    margin: 0px 0px;
+}
+
+.position img,
+p {
+    margin: 0px 0px;
+}
+
+.li-box {
+    margin: 20px 20px;
+}
+
+.gear {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.li-box p {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.edit {
+    color: rgba(42, 42, 255, 0.767);
+    text-decoration: underline;
+}
+
+.edu-bar {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    height: 50px;
+}
+
+.education {
+    margin-top: 10px;
+    height: 150px;
+}
+
+.edu-cnt {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.edu-h3 {
+    margin: 0px 0px;
+}
+
+.edu-h3,
+.edu-p {
+    margin: 5px 0px;
+
+}
+
+#edu-h {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.edu-p {
+    font-weight: bold;
+}
+
+span {
+    color: rgb(158, 158, 158);
+}
+
+.req-nav,
+.frens-nav {
+    background-color: rgb(51, 51, 51);
+    height: 50px;
+    width: 290px
+}
+
+.p,
+.i {
+    border-radius: 50%;
+    width: 20px;
+}
+
+.req-nav,
+.frens-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.left-mainB {
+    display: flex;
+    justify-content: normal;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 185px;
+    position: relative;
+    bottom: 457px;
+
+}
+
+.req-box {
+    margin-bottom: 20px;
+}
+
+.j {
+    color: white;
+    font-weight: bolder;
+    padding-right: 70px;
+
+}
+
+.g {
+    background-color: rgb(197, 195, 195);
+    border-radius: 50%;
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.req1,
+.req2 {
+    display: flex;
+    margin: 10px 0px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.p {
+    width: 30px;
+}
+
+.i {
+    margin-right: 10px;
+}
+
+.frens {
+    margin-top: 20px;
+    height: 230px;
+}
+
+.frens-li {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 180px;
+    margin-right: 90px;
+}
+
+.free {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+    margin-right: 0px;
+}
+
+.fre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p,
+ul {
+    font-weight: bold;
+}
+
+.view-m {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+.view-m p {
+    padding-right: 180px;
+    text-align: left;
+    color: rgb(83, 83, 255);
+    text-decoration: underline;
+}
+
+.li2 {
+    margin: 30px 0px;
+    /* margin-right: 150px; */
+}
+.frens , .req-box , .view-m{
+    border: 3px solid rgb(211, 210, 210);
+}
+.view-m{
+   width: 100%;
+   margin-left: -3px;
+}
+.t{
+    margin-right: 100px;
+
+}
