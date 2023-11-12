@@ -1,0 +1,160 @@
+/*.bg-silver {
+    background-color:rgb(194, 153, 235);
+ } */
+
+
+/* You can adjust the shadow properties as needed */
+
+.shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/ret.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.nav-link{
+    color: grey;
+    font-weight: bolder;
+    padding-left: 25px ;
+   
+}
+
+#myH1{
+    font-family: 'Courier New', Courier, monospace;
+    /*color:   #78C475 ;*/
+/* color: #20C20E;*/
+    color:grey;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+#H1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.col-5{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 80px;
+    
+}
+.col-3{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
+}
+#what{
+    display: flex;
+    justify-content: center;
+    
+}
+.part1-1{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    margin-top: auto;
+}
+.col-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.part1-1 img{
+    border-radius: 25px;
+}
+/* page portfolio */
+#portf{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+    color: gray;
+    text-shadow: 11px 21px 6px;
+}
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    display: flex;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+/* .Portfolio{
+background-repeat: no-repeat;
+margin: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 500px;
+width: 500px;
+background-image: url(../img/gif_files/giphy.gif);
+background-size: contain;
+background-position: center;
+overflow: hidden;
+padding: 0 px 20 px;
+} */
+#myh1{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.message {
+    font-size: 18px;
+    margin-bottom: 20px;
+    }
+
+    .explore-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:grey; /* Adjust the button color */
+    color:black; /* Adjust the button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    }
+    .page3{
+        display: flex;
+        justify-content: center;
+    }
+    .Portfolio{
+        background-color:beige;
+    }
+    .col-4{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-top: auto;
+    }
+    
+/* page contact */
+#contact{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    /* background-color: beige; */
+    background-image: url(../img/ret.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    color: white;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #1e1e1e;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .contact-container {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+    }
+
+    .tree-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .tree-item {
+      position: relative;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    .tree-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -5px;
+      width: 2px;
+      height: 100%;
+      background: #fff;
+    }
+
+    .tree-item:hover::before {
+      background: #ffcc00;
+    }
+
+    .tree-item p {
+      font-size: 1.2em;
+      margin: 5px 0 0 15px;
+      display: inline-block;
+    }
+
+    .contact-options {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .contact-option {
+      margin: 10px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s forwards;
+      animation-delay: 0.5s;
+      cursor: pointer;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .contact-option img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .contact-option:hover img {
+      transform: scale(1.2);
+    }
+
+    .contact-option p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-container">
+    <h1>Contact Me</h1>
+
+    <div class="tree-container">
+      <div class="tree-item">
+        <p>Email</p>
+      </div>
+
+      <div class="tree-item">
+        <p>Phone</p>
+      </div>
+
+      <div class="tree-item">
+        <p>Social Media</p>
+        <div class="contact-options">
+          <div class="contact-option">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+              <img src="path/to/your/linkedin-icon.png" alt="LinkedIn">
+            </a>
+            <p>LinkedIn</p>
+          </div>
+
+          <div class="contact-option">
+            <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <img src="path/to/your/instagram-icon.png" alt="Instagram">
+            </a>
+            <p>Instagram</p>
+          </div>
+
+          <!-- Add more social media options as needed -->
+
+        </div>
+      </div>
+
+      <div class="tree-item">
+        <p>Messaging</p>
+        <div class="contact-options">
+          <div class="contact-option">
+            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
+              <img src="path/to/your/whatsapp-icon.png" alt="WhatsApp">
+            </a>
+            <p>WhatsApp</p>
+          </div>
+
+          <!-- Add more messaging options as needed -->
+
+        </div>
+      </div>
+
+      <div class="tree-item">
+        <p>GitHub</p>
+        <div class="contact-options">
+          <div class="contact-option">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <img src="path/to/your/github-icon.png" alt="GitHub">
+            </a>
+            <p>GitHub</p>
+          </div>
+
+          <!-- Add more coding platforms as needed -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
