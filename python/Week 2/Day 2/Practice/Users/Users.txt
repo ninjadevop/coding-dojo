@@ -1,0 +1,33 @@
+*SELECT * FROM users.users;
+*SET SQL_SAFE_UPDATES = 0;
+*ALTER TABLE users DROP COLUMN name;
+
+*INSERT INTO users (first_name, last_name, email) VALUES('khaled','hannachi', 'khaled@email.com'),
+('amen','allah', 'amen@email.com'),('lazher','jouili', 'lazher@email.com');
+
+*SELECT * FROM users;
+
+*SELECT * FROM users WHERE email = "khaled@email.com";
+
+*SELECT MAX(id) FROM users;
+*SELECT first_name, last_name, email FROM users
+WHERE ID = 3
+
+
+*UPDATE users
+SET last_name = 'Pancakes'
+WHERE id=3;
+
+*DELETE FROM users WHERE id=2;
+
+*SELECT *
+FROM users
+ORDER BY email;
+
+*SELECT *
+FROM users
+ORDER BY email;
+
+SELECT *
+FROM users
+ORDER BY first_name DESC;

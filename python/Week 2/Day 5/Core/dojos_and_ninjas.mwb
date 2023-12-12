@@ -1,0 +1,5 @@
+SELECT * FROM dojo_and_ninjas.dojos;
+
+Insert into dojos(name)
+values("snipper")
+

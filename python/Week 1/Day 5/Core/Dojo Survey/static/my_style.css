@@ -1,0 +1,61 @@
+*{
+   margin: 0px auto;
+   padding: 0px auto;
+}
+.form-group{
+    font-weight: 100px;
+    font-size: larger;
+    color: white ;
+}
+.container{
+    width: 800px;
+    background-color: rgb(37, 37, 37);
+    padding: 50px;
+    height: 100%;
+}
+.container h1{
+    color: white ;
+    text-align: center;
+}
+.form-control{
+    height: 50px;
+}
+.form-control2{
+    height: 400px;
+    width: 700px;
+}
+.btn{
+height: 50px;
+width: 150px; 
+}
+.container2 p{
+    color: white ;
+    text-align: start;
+    font-size: x-large;
+}
+.container2 h2{
+    color: white ;
+    text-align: center;
+}
+.container2{
+    width: 800px;
+    background-color: rgb(37, 37, 37);
+    padding: 50px;
+    height: 100%;
+    align-items: center;
+}
+.container2 a{
+    color: white ;
+    text-align: center;
+    text-decoration: none;
+}
+select{
+    height: 50px;
+    width: 100%;
+    border-radius: 7px;
+}
+.container a{
+    color: white ;
+    text-align: center;
+    text-decoration: none;
+}
