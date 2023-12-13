@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <title>Books</title>
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex flex-warp justify-content-around">
+            <div class="col-6 p-5 mt-2">
+                <h1>New Book</h1>
+                <form action="/create/book" method="post">
+                    <div class="form-group">
+                        <label for="title">Title:</label>
+                        <input type="text" name="title" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="num_of_pages">Number of pages:</label>
+                        <input type="number" name="num_of_pages" class="form-control">
+                    </div>
+                    <input type="submit" value="Create" class="btn btn-primary">
+                </form>
+            </div>
+            <div class="col-6 p-5 mt-2">
+                <h1>All Books</h1>
+                <div class="border p-3">
+                    {% for one in all_books %}
+                    <p class="card_text"><a href="/books/{{one.id}}">{{one.title}}</a></p>
+                    {%endfor%}
+                </div>
+                <button class="btn btn-warning mt-5"><a href="/">Home</a></button>
+                </div>
+            </div>
+            
+    </div>
+    
+</body>
+</html>
