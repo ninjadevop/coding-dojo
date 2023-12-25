@@ -71,4 +71,3 @@ const pokemon_count=pokémon.filter((p) => {
     return p.types.includes("normal")
 }).length
 console.log(pokemon_count);
-
