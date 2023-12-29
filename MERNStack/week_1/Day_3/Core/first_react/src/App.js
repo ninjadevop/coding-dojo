@@ -9,10 +9,10 @@ function App() {
       <h1>Hello Dojo !</h1>
       <h2>Things i need to do :</h2>
       <ul>
-      <ul>Learn React</ul>
-      <ul>Climb Mt. Everset</ul>
-      <ul>Run a Marathon </ul>
-      <ul>Feed the Dogs</ul>
+      <li>Learn React</li>
+      <li>Climb Mt. Everset</li>
+      <li>Run a Marathon </li>
+      <li>Feed the Dogs</li>
       </ul>
     </div>
   );
